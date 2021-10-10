@@ -168,7 +168,7 @@ body li, a{
 .texto_sobre p {
     color: var(--cor-variavel-cor-4);
     font-size: 1.2rem;
-    letter-spacing: .05rem;
+    letter-spacing: .01rem;
     line-height: 1.5rem;
     margin: 0px;
 }
@@ -355,11 +355,11 @@ body li, a{
 }
 
 .elementos_contato a {
-    background-color: var(--cor-variavel-cor-3);
+    border: 1px solid var(--cor-variavel-cor-5);
     color: var(--cor-variavel-cor-4);
     width: 100px;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     transition: 600ms;
 }
